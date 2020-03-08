@@ -115,7 +115,7 @@ func Yarn() error {
 		Assets []asset
 	}
 
-	url := "https://api.github.com/repos/yarnpkg/yarn/releases/latest"
+	url := "https://api.github.com/repos/yarnpkg/yarn/releases/24314348"
 
 	yarnClient := http.Client{
 		Timeout: time.Second * 2, // Maximum of 2 secs
